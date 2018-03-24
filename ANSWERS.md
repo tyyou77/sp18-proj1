@@ -12,9 +12,15 @@ It creates a button that is a "patch" method that essentially causes the pokemon
 
 # Question 3: What would you name your own Pokemon?
 
+Charlie
+
 # Question 4: What did you pass into the redirect_to? If it is a path, what did that path need? If it is not a path, why is it okay not to have a path here?
 
+I passed in pokemon.trainer. It's okay because it leads to the trainer's page.
+
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
+
+When user attempts to create pokemon with a name that already exists, the error message is shown.
 
 # Give us feedback on the project and decal below!
 
